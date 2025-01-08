@@ -1,0 +1,33 @@
+/* Custom Scrollbar */
+body::-webkit-scrollbar {
+    width: 8px;
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: #4b5563; /* Tailwind's gray-600 */
+    border-radius: 4px;
+  }
+  body::-webkit-scrollbar-thumb:hover {
+    background-color: #1f2937; /* Tailwind's gray-800 */
+  }
+  
+  /* Header Sticky Effect */
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  /* Hover effect for images */
+  main img {
+    transition: transform 0.3s ease;
+  }
+  main img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Footer Icon Hover Effect */
+  footer a:hover i {
+    color: #1f2937; /* Tailwind's gray-800 */
+    transition: color 0.3s ease;
+  }
+  
